@@ -28,6 +28,21 @@ print(x != 7)
 # 문자열 다루는 메소드 split join,upper,lower,replace 등
 
 
-#print(3+'3')
+#print(3+'3')  # 동작 안함
 print('3'+'3') # 33
 print('3'*5)   # 33333
+
+# 군집 자료형(집합의 형태)
+# list tuple set dictionary
+# 좀 더 자세히 다룰 예정
+
+
+# 자료형 변환 방법
+str(10)     #10을 문자열로
+int('10')   #문자열을 숫자로
+int(12.5)   #실수를 정수로
+print(list('hello'))
+
+a=int(input('숫자를 입력하세요'))
+
+print(a+a)
