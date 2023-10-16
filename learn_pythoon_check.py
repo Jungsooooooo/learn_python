@@ -2,15 +2,15 @@
 # 긴 문장과 한문자를 이별갑ㄷ아
 # t가 text안에 포함되어 있는지 확인
 
-# text= input('text:')
+text= input('text:')
 
-# check = False
+check = False
 
-# for i in text:
-#     if i == 't':
-#         check= True
+for i in text:
+    if i == 't':
+        check= True
 
-# print(check)            
+print(check)            
 
 # 숫자 체크
 # 5개의 숫자를 입력받아 리스트를 만들고
